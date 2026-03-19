@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Divya 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onclick="startMusicOnce()">
+
+<audio id="music" loop>
+  <source src="music.mp3" type="audio/mp3">
+</audio>
+
+<h1 class="title">💖 Happy Birthday Divya 💖</h1>
+<p class="instruction">👉 Tap the Surprise Box 🎁</p>
+
+<!-- 🐱🐶 6 GIF PETS -->
+<img src="cat1.gif" class="pet p1">
+<img src="cat2.gif" class="pet p2">
+<img src="cat3.gif" class="pet p3">
+
+<img src="cat4.gif" class="pet p4">
+<img src="cat5.gif" class="pet p5">
+<img src="cat6.gif" class="pet p6">
+
+<!-- 🎁 BOX -->
+<div class="box" onclick="openBox(event)">🎁</div>
+
+<!-- 💌 MESSAGE -->
+<div id="message" class="hidden typing"></div>
+
+<!-- 🎂 CAKE -->
+<div id="cakeSection" class="hidden">
+  <p>👉 Click the cake to cut 🎂</p>
+  <div class="cake" onclick="cutCake()">🎂</div>
+</div>
+
+<!-- 📸 SLIDESHOW -->
+<div id="slideshow" class="hidden">
+  <img id="slide">
+</div>
+
+<!-- 💖 ENDING -->
+<div id="ending" class="hidden fade">
+  💖 You are truly special 💖 <br>
+  Thank you for existing ✨ <br>
+  Stay happy always 😊
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
